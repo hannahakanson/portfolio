@@ -19,17 +19,21 @@ const About = () => {
       <div className={styles.Root__textContainer}>
         <h2>Hello there!</h2>
         <p>
-          Hey there, welcome to my portfolio! I'm a front-end developer and
-          UX/UI enthusiast who's ready to take the world by storm (or at least,
-          create some awesome websites and apps). I'm currently wrapping up my
-          studies at Medieinstitutet in Malmö after two years. When
-          I'm not coding I'm most likely watching RuPaul's drag race or solving
-          crosswords.
+          Hey there, welcome to my portfolio! I&apos;m a front-end developer and
+          UX/UI enthusiast who&apos;s ready to take the world by storm (or at
+          least, create some awesome websites and apps). I&apos;m currently
+          wrapping up my studies at Medieinstitutet in Malmö after two years.
+          When I&apos;m not coding I&apos;m most likely watching RuPaul&apos;s
+          drag race or solving crosswords.
         </p>
       </div>
 
       <div className={styles.Root__imgContainer}>
-        <img className={styles.Root__img} alt="Picture of me" src='./images/hanna-hakanson.jpg' />
+        <img
+          className={styles.Root__img}
+          alt="Picture of me"
+          src="./images/hanna-hakanson.jpg"
+        />
       </div>
 
       <div className={styles.Root__textContainer}>

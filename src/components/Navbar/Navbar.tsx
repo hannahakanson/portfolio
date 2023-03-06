@@ -7,13 +7,9 @@ import styles from "./Navbar.module.scss";
 const Navbar = () => {
   return (
     <div className={styles.Root}>
-      <Marquee
-        pauseOnHover
-        gradient
-        gradientColor={[255, 131, 96]}
-        speed={40}>
+      <Marquee pauseOnHover gradient gradientColor={[255, 131, 96]} speed={40}>
         <div className={styles.Root__text}>
-          HI! I'M HANNA, A FRONT END DEVELOPER. WELCOME TO MY PORTFOLIO.{" "}
+          HI! I&apos;M HANNA, A FRONT END DEVELOPER. WELCOME TO MY PORTFOLIO.{" "}
           <span style={{ marginRight: "2rem" }}>
             <TfiCommentsSmiley size={25} />
           </span>
