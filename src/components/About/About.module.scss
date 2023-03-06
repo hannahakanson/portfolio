@@ -1,0 +1,38 @@
+.Root {
+  &__iconContainer {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  &__textContainer {
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  &__imgContainer {
+    position: relative;
+    width: 100%;
+    border: 1px solid black;
+  }
+
+  @media only screen and (min-width: 600px) {
+    &__imgContainer {
+      width: 50%;
+    }
+  }
+
+  &__img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: opacity 0.3s ease-in-out;
+  }
+
+  @media only screen and (min-width: 600px) {
+    &__textContainer {
+      width: 50%;
+    }
+  }
+}

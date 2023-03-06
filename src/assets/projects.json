@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Sämsta haken",
+    "id": 1,
+    "img_src": "./images/samsta-haken.png",
+    "link": "https://samsta-haken.netlify.app/",
+    "src_code": "https://github.com/hannahakanson/samsta-haken",
+    "desc": "An application to find the worst restaurants in your area",
+    "color": "#FF8360"
+  },
+  {
+    "title": "Movie DB",
+    "id": 2,
+    "img_src": "./images/movie-db.png",
+    "link": "https://timely-mooncake-2f96e3.netlify.app/popular",
+    "src_code": "https://github.com/hannahakanson/movie-db",
+    "desc": "A website to browse movies and actors from the TMDB API.",
+    "color": "#E8E288"
+  },
+  {
+    "title": "Battleship",
+    "id": 3,
+    "img_src": "./images/battleship.png",
+    "link": "https://fed21-battleship.netlify.app/",
+    "src_code": "https://github.com/hannahakanson/battleship-client",
+    "desc": "A two player battleship game",
+    "color": "#3CDBD3"
+  }
+]

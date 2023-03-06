@@ -1,0 +1,14 @@
+.Root {
+  font-family: "Staatliches", cursive;
+  font-size: 1.5rem;
+  &__contactItem {
+    text-align: left;
+    display: flex;
+    align-items: center;
+  }
+
+  &__contactItem > a {
+    text-decoration: none;
+    color: black;
+  }
+}

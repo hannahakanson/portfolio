@@ -1,0 +1,100 @@
+.Root {
+  display: flex;
+  flex-direction: column;
+  padding-top: 2rem;
+
+  @media only screen and (min-width: 600px) {
+    flex-direction: row;
+  }
+
+  :hover img {
+    opacity: 1;
+  }
+
+  &__imgContainer {
+    position: relative;
+    width: 100%;
+    border: 1px solid black;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  &__img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0;
+  }
+
+  &__overlay {
+    font-family: "Staatliches", cursive;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+  }
+
+  &__overlay__default {
+    transition: background-color 0.3s ease;
+  }
+
+  &__overlay__default:hover {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+  }
+
+  &__overlay:hover {
+    color: #fff;
+  }
+
+  &__overlay h2 {
+    margin-bottom: 0.5rem;
+    border-bottom: 1px solid black;
+  }
+
+  &__overlay a {
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: background-color 0.2s ease-in-out;
+  }
+
+  &__overlay:hover > a {
+    color: rgb(255, 255, 255);
+  }
+
+  &__overlay > &__overlay__link {
+    border: 1px solid black;
+  }
+
+  &__overlay:hover > &__overlay__link {
+    color: black;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: white;
+  }
+
+  &__overlay__link:hover {
+    scale: 1.1;
+  }
+
+  &__desc {
+    max-width: 80%;
+    text-align: center;
+  }
+
+  @media only screen and (min-width: 600px) {
+    &__imgContainer {
+      width: 50%;
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+  }
+}
